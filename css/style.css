@@ -1,0 +1,304 @@
+/* .head {
+    background-color: #acacac;
+} */
+
+body {
+    background: #f9fafa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 3px 15px;
+    margin: 10px 15px;
+    color: black;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.carousel-section .row {
+    align-items: center;
+    width: 100%;
+}
+
+.carousel-section .col {
+    align-items: center;
+    width: 100%;
+}
+
+
+.kalimat-carousel h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+.kalimat-carousel p {
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.kalimat-carousel .btn-box {
+    display: flex;
+    margin: 0 -5px;
+    font-family: "Poppins", sans-serif;
+}
+
+.kalimat-carousel .btn-box a {
+    margin: 5px;
+    text-align: center;
+    width: 165px;
+    font-family: "Poppins", sans-serif;
+}
+
+.kalimat-carousel .btn-box .btn-1 {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: coral;
+    color: white;
+    border: 1px solid coral;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.kalimat-carousel .btn-box .btn-1:hover {
+    border: 1px solid coral;
+    background: white;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.menu-section {
+    background-color: #f9fafa;
+}
+
+.menu-section .row {
+    align-items: center;
+    width: 100%;
+}
+
+.menu-section .img-box .organik-img {
+    width: 100%;
+}
+
+.menu-section .img-box .anorganik-img {
+    width: 100%;
+}
+
+.menu-section .detail-box h2 {
+    font-family: "Poppins", sans-serif;
+}
+
+.menu-section .detail-box p {
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-family: "Poppins", sans-serif;
+}
+
+.menu-section .detail-box a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: coral;
+    color: #f9fafa;
+    border-radius: 8px;
+    border: 1px coral solid;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.menu-section .detail-box a:hover {
+    border: 1px solid coral;
+    background-color: white;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}   
+
+.pengomposan-section {
+    background-color: #f9fafa;
+}
+
+.pengomposan-section .heading-pengomposan {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.pengomposan-section .text-pengomposan {
+    text-align: left;
+    margin-top: 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-section {
+    background-color: coral;
+    color: white;
+    margin-bottom: 0;
+}
+
+.footer-section li {
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-section li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-section li a:hover {
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-section h3 {
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-section span {
+    font-family: "Poppins", sans-serif;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.footer-badge {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    padding: 1px;
+}
+
+.button-kompos {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-kompos {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: coral;
+    color: #f9fafa;
+    border-radius: 8px;
+    border: 1px solid coral;
+    text-decoration: none;
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-kompos:hover {
+    border: 1px solid coral;
+    background-color: white;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.input-news {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #f2faef;
+    border-radius: 20px;
+    padding: 8px 18px;
+    background: #f2faef;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-news {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #f2faef;
+    border-radius: 20px;
+    background-color: #f2faef;
+    font-family: "Poppins", sans-serif;
+}
+
+/* page jenis sampah */
+.organik {
+    position: relative;
+}
+
+.organik::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 18%; 
+    height: 2px;
+    background-color: #FF7F50;
+}
+
+.organik-teks {
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+
+.contoh-organik-basah {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-left: -25px;
+}
+
+.garis {
+    border: 1px solid coral;
+    width: 180px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* akhir page jenis sampah */
+
+/* page bahan */
+
+.headingnya {
+    position: relative;
+}
+
+.headingnya::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 18%; 
+    height: 2px;
+    background-color: #FF7F50;
+}
+
+.headingnya h1 {
+    font-family: "Poppins", sans-serif;
+}
+
+h2, p {
+    font-family: "Poppins", sans-serif;
+}
+
+.gambarnya {
+    text-align: center;
+}
+
+/* akhir page bahan */
+
+/* page proses */
+
+.garis-proses {
+    position: relative;
+}
+
+.garis-proses::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 18%; 
+    height: 2px;
+    background-color: #FF7F50;
+}
+
+/* akhir page proses */
